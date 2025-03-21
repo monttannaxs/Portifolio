@@ -1,0 +1,113 @@
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h1,h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#213555;
+
+}
+
+/* DEFININDO TAMANHO DOS H E DEFININDO FONTES*/
+
+article{
+  padding: 50px;
+  text-align: center;
+}
+
+.inicial{
+    text-align: center;
+    color:#213555;
+    background-color: #f5efe7;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 250px;
+    padding-top: 150px;
+}
+
+p {
+    font-size: 140%;
+    margin: 60px;
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+a {
+  text-decoration: transparent;
+  color:#213555;
+}
+
+iframe{
+  border: 5px solid #213555;
+  width: 600px;
+  height: 340px;
+  display: block;
+  margin: 0 auto;
+}
+
+video{
+  width: 450px;
+  height: 500px;
+  display: block;
+  border: 5px solid #213555;
+}
+
+img{
+  display: block;
+  border: 5px solid #213555;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+header{
+    background-color: #f5efe78c;
+    padding: 60px;
+    height: 5px;
+    display: flex;
+    position: fixed; /* O header desce junto com o scroller */
+    width: 100%;
+    backdrop-filter: blur(1px);
+}
+
+.logo {
+    color:#213555;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    align-items: center; /* Centraliza no header que eu coloquei */
+    justify-content: left; /* Jogando o "Pedro Henrique no Lado Direito superior "*/
+
+}
+
+/* --------------------------------------------------------------------------------------------------------------------*/
+
+.navegacao ul {
+  position: fixed; /* Não permite com que se movam no HTML */
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 2rem; /* Separa o conteúdos com um espaçamento */
+  font-size: 140%;
+  width: 45%; /*Aumenta o tamanho os afastando do Nome */
+  justify-content: right;
+}
+
+.mainz {
+  display: flex;
+  color: #213555;
+  list-style-type: none; /* Tira a bolinha das listas não ordenadas*/
+  margin: -15px;
+  padding: 0px 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 150px;
+  align-items: center;
+}
+
+/*
+Paleta de cor usada: https://colorhunt.co/palette/2135553e5879d8c4b6f5efe7 
+*/
